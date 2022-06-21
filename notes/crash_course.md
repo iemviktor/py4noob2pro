@@ -189,5 +189,12 @@ also its good to write docstring for functions
 
 
 - files and exceptions
+look in this dir by default
+windows uses \ but you can still use /
+need use \\ insted of just \ cause \ is used for escape
 with open path as file:
-	content = file.read()
+     content = file.read()
+such code will automatically close file
+we can manually close but that is more bug prone (close too fast or never close)??
+for line in file:
+    print(line)
