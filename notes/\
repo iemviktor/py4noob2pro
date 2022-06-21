@@ -1,0 +1,4 @@
+can use quotes in strings interchangeably
+can use fstrings for assignment
+a = f"{b} called {c}"
+like "quote 'name'" and 'quote "name"'
