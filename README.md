@@ -1,2 +1,2 @@
 # py4noob2pro
-Becoming pro
+Becoming pro while studying Python
