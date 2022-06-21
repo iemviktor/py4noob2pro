@@ -1,3 +1,11 @@
-with open(f'/home/viktor/StudyPython/ehmatthes-pcc_2e-078318e/chapter_10/pi_digits.txt') as pi_dig:
-    content = pi_dig.read()
-print(content.rstrip())
+with open('pi_million_digits.txt') as pi:
+    content = pi.read()
+    print(content[:50])
+if "1409" in content:
+    print('yes')
+    print(content.find('14'))
+content.replace('\n', '')
+print(len(content))
+
+pi_float = float(content.replace(' ', '').replace('\n', ''))
+print(f'{pi_float:.100}')

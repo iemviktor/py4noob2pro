@@ -198,3 +198,15 @@ such code will automatically close file
 we can manually close but that is more bug prone (close too fast or never close)??
 for line in file:
     print(line)
+when python reads data i interprets it as string
+you can convert it to int
+
+
+- readline() all lines
+- open() as whole
+- open() and for line in file
+file modes are r, w, a and r+ (read, write, append, rw)
+
+try
+except Exception
+else
