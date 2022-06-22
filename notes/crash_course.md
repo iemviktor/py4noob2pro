@@ -210,3 +210,15 @@ file modes are r, w, a and r+ (read, write, append, rw)
 try
 except Exception
 else
+
+- to handle error silently use pass
+
+- json stands for js object notation
+- but is universally used
+
+
+- Refactoring
+Often, you’ll come to a point where your code will work, but you’ll recog-
+nize that you could improve the code by breaking it up into a series of func-
+tions that have specific jobs. This process is called refactoring. Refactoring
+makes your code cleaner, easier to understand, and easier to extend.
